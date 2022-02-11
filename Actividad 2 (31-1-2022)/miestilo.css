@@ -1,0 +1,32 @@
+body {
+  padding-left: 6em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, "Times New Roman",
+      Times, serif;
+  color: rgb(9, 51, 19);
+  background-color: #d9ddb5
+}
+
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Arial,
+      SunSans-Regular, sans-serif 
+}
+
+
+a:link {
+  color: rgb(205, 207, 174)
+}
+
+button {
+  border: rgb(183, 197, 104);
+  color: rgb(52, 116, 50);
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flexbox;
+  font-style: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
