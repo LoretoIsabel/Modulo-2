@@ -48,16 +48,21 @@
       <input class="form-control" type="number" id="edad" name="input_edad" min="18" max="99" title="Sólo entre 18 y 99 años"required> <br>
       <label for="domicilio">Categoria:(campo obligatorio)</label>
         <form action="/action_page.php">
-          <input list="categorias" name="input_categorias" required><br><br>
+          <input  list="categorias" name="input_categorias" required><br><br>
           <datalist id="categorias">
             <option value="5k">
             <option value="10k">
             <option value="15k">
             <option value="20k">
           </datalist>
-      <button type="submit" value="Enviar"> Enviar </button>
-      <button type="reset" value="Borrar formulario"> Borrar formulario</button>
+      <button type="submit" value="Enviar" onclick="enviar()"> Enviar formulario </button>
+      <button type="reset" value="Borrar"> Borrar formulario</button>
     </form>
     
-    <p>Pulsa "Enviar" para hacer llegar a los organizadores.</p>
-    
+    <p>Pulsa "Enviar formulario" si llenaste todos los campos.</p>
+<script>
+  function enviar(){
+    alert("¡Formulario enviado con éxito!");
+  }
+</script>
+   
