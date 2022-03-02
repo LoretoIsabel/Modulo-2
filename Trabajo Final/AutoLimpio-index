@@ -1,119 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Servicios</title>
-	<link rel="stylesheet" href="estilos.css"></html>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	</head> 
-</head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head> 
+<body>
+<nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="Logo.png" alt="Logo" style="width:80px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="autolimpio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Clientes Felices</a>
+        </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="inscritos.html">Orden de Trabajo</a>
+      </li>
+    </div>
+  </div>
+</nav>
 
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-	<style>
-		.container {
-		  position: relative;
-		  width: 50%;
-		}
-		
-		.image {
-		  display: block;
-		  width: 100%;
-		  height: auto;
-		}
-		
-		.overlay {
-		  position: absolute;
-		  top: 0;
-		  bottom: 0;
-		  left: 0;
-		  right: 0;
-		  height: 100%;
-		  width: 100%;
-		  opacity: 0;
-		  transition: .5s ease;
-		  background-color: #008CBA;
-		}
-		
-		.container:hover .overlay {
-		  opacity: 1;
-		}
-		
-		.text {
-		  color: white;
-		  font-size: 20px;
-		  position: absolute;
-		  top: 50%;
-		  left: 50%;
-		  -webkit-transform: translate(-50%, -50%);
-		  -ms-transform: translate(-50%, -50%);
-		  transform: translate(-50%, -50%);
-		  text-align: center;
-		}
-		</style>
-		</head>
-		<body>
-			<nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top">
-				<div class="container-fluid">
-				  <a class="navbar-brand" href="#">
-					<img src="Logo.png" alt="Logo" style="width:80px;">
-				  </a>
-				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					  <li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="autolimpio.html">Inicio</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="servicios.html">Nuestros Servicios</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="galeria.html">Clientes Felices</a>
-					  </li>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="inscritos.html">Orden de Trabajo</a>
-					</li>
-				  </div>
-				</div>
-			  </nav>
-			<h1>Conozca nuestros servicios y tarifas</h1>
-	<p>Realizamos el lavado de su auto bajo altos estándares de calidad. <br> Cuidamos su vehículo con los mejores productos y herramientas del mercado. Entregamos un servicio 100% confiable y garantizado.
-	</p>
-		
-		<div class="container">
-		  <img src="lavado.jpg" alt="Avatar" class="image">
-		  <div class="overlay">
-			<div class="text"> <h2>Lavado Exterior</h2><br><br>
-				 Nuestro servicio de lavado exterior incluye los siguientes procesos: <br><br>
-				
-				+lavado y limpieza exterior <br>
-				+Aspirado <br>
-				+Limpieza de tablero con silicona liquida <br>
-				+Renovadores de gomas y neumáticos <br>
-				+Encerado que dejara su auto brilloso como ninguno</div>
-				<button id="cotizar"class="button" link="orden.html">Cotizar Servicio</button>
-		  </div>
-		</div>
-		<div class="container">
-			<img src="antes despues.jpg" alt="Avatar" class="image">
-			<div class="overlay">
-			  <div class="text"> <h2>Lavado Motor</h2> <br><br>
-				  Nuestro servicio de lavado motor incluye los siguientes procesos: <br><br>
-				  
-				  +Pulido Abrillantador <br>
-				  +Lavado de Tapiz (Solo Asientos) <br>
-				  +Lavado Detallado de Motor <br>
-				  +Limpieza Interior</div>
-				  <button id="cotizar"class="button" link="orden.html">Cotizar Servicio</button>
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slide3.png" alt="Los Angeles" class="d-block" style="width:100%" link="servicios.html">
+    </div>
+    <div class="carousel-item">
+      <img src="slide2.png" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="slide.png" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 
-			</div>
-		  </div>
-	
+<div class="container-fluid mt-3">
+  <h3>AutoLimpio</h3>
+  <p>Somos una empresa dedicada al rubro del lavado profesional de vehículos a domicilio enfocados en la prestación de servicios hacia el sector Sur de la Región Metropolitana.
 
+    Nuestra idea nace a partir de que cada dueño de un vehículo tiene la importante necesidad de mantener y conservar siempre limpio su automóvil ya sea por higiene o una perfecta imagen.
+    
+    Considerando la rutina diaria de familia y trabajo, como además la constante falta de tiempo e implementos y productos necesarios, sabemos que para los clientes no es siempre una tarea fácil ni cómoda de realizar. Por otra parte, el acudir a un local requiere horarios menos flexibles, y tiempos de espera muy prolongados.
+    
+    Por lo tanto, con la finalidad de entregar una solución óptima a estos problemas planteados, nuestros servicios son ofrecidos a la puerta de su casa y con todos los beneficios de un trabajo bien preparado y de larga experiencia profesional.
+    
+    Nuestro objetivo principal es llegar a cada casa o empresa en donde requieran nuestros servicios proporcionando siempre los mejores resultados y dejando plenamente conformes a todos nuestros clientes.</p>
+</div>
+<div class="mt-5 p-4 bg-black text-white text-center">
+  <p>Casa Matriz: Las Delicias 405, Temuco.</p>
+  <p>+569 9456 8375</p>
+</div>
 </body>
-</html>
+<link rel="stylesheet" href="estilos.css"></html>
