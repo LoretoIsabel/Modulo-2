@@ -35,6 +35,7 @@
 		  opacity: 0;
 		  transition: .5s ease;
 		  background-color: #008CBA;
+		  size-adjust: relative;
 		}
 		
 		.container:hover .overlay {
@@ -43,8 +44,8 @@
 		
 		.text {
 		  color: white;
-		  font-size: 20px;
-		  position: absolute;
+		  font-size: 100%;
+		  position: relative;
 		  top: 50%;
 		  left: 50%;
 		  -webkit-transform: translate(-50%, -50%);
@@ -52,6 +53,11 @@
 		  transform: translate(-50%, -50%);
 		  text-align: center;
 		}
+
+		button{
+			color: white;
+		}
+		
 		</style>
 		</head>
 		<body>
@@ -72,17 +78,18 @@
 						<a class="nav-link" href="servicios.html">Nuestros Servicios</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link" href="galeria.html">Clientes Felices</a>
+						<a class="nav-link" href="clientes.html">Clientes Felices</a>
 					  </li>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="inscritos.html">Orden de Trabajo</a>
+					  <a class="nav-link" href="orden.html">Orden de Trabajo</a>
 					</li>
 				  </div>
 				</div>
 			  </nav>
 			<h1>Conozca nuestros servicios y tarifas</h1>
-	<p>Realizamos el lavado de su auto bajo altos estándares de calidad. <br> Cuidamos su vehículo con los mejores productos y herramientas del mercado. Entregamos un servicio 100% confiable y garantizado.
+	<p>Realizamos el lavado de su auto bajo altos estándares de calidad. <br> Cuidamos su vehículo con los mejores productos y herramientas del mercado. <br>
+		 Entregamos un servicio 100% confiable y garantizado.
 	</p>
 		
 		<div class="container">
@@ -96,7 +103,7 @@
 				+Limpieza de tablero con silicona liquida <br>
 				+Renovadores de gomas y neumáticos <br>
 				+Encerado que dejara su auto brilloso como ninguno</div>
-				<button id="cotizar"class="button" link="orden.html">Cotizar Servicio</button>
+				<button id="cotizar"class="link" href="orden.html">Cotizar Servicio</button>
 		  </div>
 		</div>
 		<div class="container">
@@ -109,7 +116,7 @@
 				  +Lavado de Tapiz (Solo Asientos) <br>
 				  +Lavado Detallado de Motor <br>
 				  +Limpieza Interior</div>
-				  <button id="cotizar"class="button" link="orden.html">Cotizar Servicio</button>
+				  <button id="cotizar"class="link" href="orden.html" >Cotizar Servicio </button>
 
 			</div>
 		  </div>
