@@ -25,11 +25,11 @@
           <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="galeria.html">Clientes Felices</a>
+          <a class="nav-link" href="clientes.html">Clientes Felices</a>
         </li>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="inscritos.html">Orden de Trabajo</a>
+        <a class="nav-link" href="orden.html">Orden de Trabajo</a>
       </li>
     </div>
   </div>
@@ -69,13 +69,13 @@
 
 <div class="container-fluid mt-3">
   <h3>AutoLimpio</h3>
-  <p>Somos una empresa dedicada al rubro del lavado profesional de vehículos a domicilio enfocados en la prestación de servicios hacia el sector Sur de la Región Metropolitana.
+  <p>Somos una empresa dedicada al rubro del lavado profesional de vehículos enfocados en la prestación de servicios en la Región de la Araucanía.
 
     Nuestra idea nace a partir de que cada dueño de un vehículo tiene la importante necesidad de mantener y conservar siempre limpio su automóvil ya sea por higiene o una perfecta imagen.
     
-    Considerando la rutina diaria de familia y trabajo, como además la constante falta de tiempo e implementos y productos necesarios, sabemos que para los clientes no es siempre una tarea fácil ni cómoda de realizar. Por otra parte, el acudir a un local requiere horarios menos flexibles, y tiempos de espera muy prolongados.
+    Considerando la rutina diaria de familia y trabajo, como además la constante falta de tiempo e implementos y productos necesarios, sabemos que para los clientes no es siempre una tarea fácil ni cómoda de realizar.
     
-    Por lo tanto, con la finalidad de entregar una solución óptima a estos problemas planteados, nuestros servicios son ofrecidos a la puerta de su casa y con todos los beneficios de un trabajo bien preparado y de larga experiencia profesional.
+    Buscamos entregar una solución óptima a nuestros clientes, nuestros servicios son ofrecidos por un equipo de profesionales con basta experiencia.
     
     Nuestro objetivo principal es llegar a cada casa o empresa en donde requieran nuestros servicios proporcionando siempre los mejores resultados y dejando plenamente conformes a todos nuestros clientes.</p>
 </div>
@@ -85,3 +85,4 @@
 </div>
 </body>
 <link rel="stylesheet" href="estilos.css"></html>
+
